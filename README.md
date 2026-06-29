@@ -1,10 +1,5 @@
 # India Water Quality Analysis Dashboard
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
 ## Project Overview
 
 An end-to-end data analytics project analyzing water quality across India's water bodies in 2021. The project uses Python (Pandas, Matplotlib, Seaborn) for data cleaning and exploratory analysis, and Power BI for an interactive dashboard — identifying the most polluted and cleanest states across tanks, lakes, ponds, and wetlands.
