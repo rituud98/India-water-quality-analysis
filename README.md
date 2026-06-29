@@ -1,17 +1,17 @@
-# 💧 India Water Quality Analysis Dashboard
+# India Water Quality Analysis Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-## 📌 Project Overview
+## Project Overview
 
 An end-to-end data analytics project analyzing water quality across India's water bodies in 2021. The project uses Python (Pandas, Matplotlib, Seaborn) for data cleaning and exploratory analysis, and Power BI for an interactive dashboard — identifying the most polluted and cleanest states across tanks, lakes, ponds, and wetlands.
 
 ---
 
-## 🎯 Business / Social Problem
+## Business / Social Problem
 
 Water pollution is a critical issue in India. This project aims to answer:
 - Which states have the most polluted water bodies?
@@ -22,7 +22,7 @@ Water pollution is a critical issue in India. This project aims to answer:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -33,7 +33,7 @@ Water pollution is a critical issue in India. This project aims to answer:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Source:** India Water Quality Dataset 2021
 - **Rows:** 620 water bodies
@@ -41,7 +41,7 @@ Water pollution is a critical issue in India. This project aims to answer:
 
 ---
 
-## 🧹 Step 1 — Data Cleaning (Python)
+## Step 1 — Data Cleaning (Python)
 
 ```python
 # Renamed all columns for clarity
@@ -87,7 +87,7 @@ df['Pollution_Level'] = df['BOD_Max'].apply(check_pollution)
 
 ---
 
-## 🔍 Step 2 — Exploratory Analysis (Python)
+## Step 2 — Exploratory Analysis (Python)
 
 Visualizations created in Jupyter Notebook:
 - Water Quality Distribution — Bar Chart
@@ -99,7 +99,7 @@ Visualizations created in Jupyter Notebook:
 
 ---
 
-## 📊 Step 3 — Power BI Dashboard
+## Step 3 — Power BI Dashboard
 
 ### KPI Cards
 | Metric | Value |
@@ -123,7 +123,7 @@ Visualizations created in Jupyter Notebook:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - **Delhi** is the most polluted state with average BOD of **92** — extremely high above safe levels
 - **Karnataka** and **Uttar Pradesh** follow with BOD values of 30 and 15 respectively
@@ -134,5 +134,19 @@ Visualizations created in Jupyter Notebook:
 - Cities with high BOD have significantly lower DO — confirming inverse relationship between pollution and oxygen levels
 
 ---
+---
 
-## 📁 Project Structure
+##  Dashboard Preview
+<img width="876" height="497" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/ac47a893-f443-4dc6-b55e-9265b98675ab" />
+
+
+---
+
+##  How to Run This Project
+
+1. Clone this repository
+2. Open `water_quality_analysis.ipynb` in Jupyter Notebook
+3. Run all cells to reproduce the cleaning and analysis
+4. Open `water_quality_powerbi.pbix` in Power BI Desktop
+5. Refresh data source to point to `water_quality_clean.csv`
+6. Explore the interactive dashboard using slicers!
